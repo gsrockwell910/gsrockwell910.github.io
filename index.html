@@ -1,343 +1,392 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Gavin Rockwell — Software Engineer based in Nashville, TN. Building with JavaScript, Java, HTML, and CSS." />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="description"
+            content="Gavin Rockwell — Software Engineer based in Nashville, TN. Building with JavaScript, Java, HTML, and CSS."
+        />
 
-  <title>Gavin Rockwell — Software Engineer</title>
+        <title>Gavin Rockwell — Software Engineer</title>
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Figtree:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
-    rel="stylesheet"
-  />
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Figtree:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+            rel="stylesheet"
+        />
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="styles.css" />
-</head>
+        <!-- Styles -->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
 
-<body>
-
-  <!-- ── Navigation ─────────────────────────────────────────── -->
-  <nav id="navbar" role="navigation" aria-label="Main navigation">
-    <a class="nav-logo" href="#hero">GR<span>.</span></a>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a class="nav-cta" href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- ── Hero ───────────────────────────────────────────────── -->
-  <section id="hero" aria-label="Introduction">
-    <div class="hero-inner">
-      <div class="hero-tag">Available for opportunities</div>
-      <h1 class="hero-name">Gavin<br><em>Rockwell</em></h1>
-      <p class="hero-title">Software Engineer</p>
-      <p class="hero-desc">
-        Building clean, purposeful software with JavaScript, Java, HTML &amp; CSS.
-        Based in Nashville, TN — open to remote opportunities.
-      </p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="#projects">View My Work</a>
-        <a class="btn btn-outline" href="https://github.com/gsrockwell910" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
-        <a class="btn btn-outline" href="#contact">Get in Touch</a>
-      </div>
-    </div>
-    <div class="hero-scroll" aria-hidden="true">
-      <div class="scroll-line"></div>
-      scroll
-    </div>
-  </section>
-
-  <!-- ── About ──────────────────────────────────────────────── -->
-  <section id="about" aria-label="About me">
-    <div class="section-inner">
-      <div class="section-label reveal">About</div>
-      <h2 class="section-title reveal reveal-delay-1">
-        Thoughtful engineer,<br><em>relentless learner.</em>
-      </h2>
-
-      <div class="about-grid">
-        <div class="about-text reveal reveal-delay-2">
-          <p>
-            I'm a software engineer with a foundation in
-            <strong>JavaScript, Java, HTML, and CSS</strong>,
-            built through hands-on freelance work, academic projects, and a drive to keep
-            expanding my technical repertoire — most recently into <strong>Rust</strong>.
-          </p>
-          <p>
-            I thrive in environments where I can own problems end-to-end: gathering
-            requirements, writing clean code, debugging with care, and delivering something
-            that actually works well. I'm equally comfortable translating complex technical
-            concepts to non-technical audiences, a skill I've sharpened daily in
-            client-facing roles.
-          </p>
-          <p>
-            I'm currently seeking a software engineering role where I can grow fast,
-            contribute meaningfully, and work on a product that matters.
-          </p>
-        </div>
-
-        <div class="about-sidebar">
-          <div class="sidebar-block reveal reveal-delay-2">
-            <h4>Education</h4>
-            <p>
-              AAS — Information Technology<br>
-              Software Development<br>
-              Central Piedmont CC, 2025
-            </p>
-          </div>
-          <div class="sidebar-block reveal reveal-delay-3">
-            <h4>Currently</h4>
-            <ul>
-              <li>Sales Advisor @ Best Buy</li>
-              <li>Web Developer @ Train with Tori K.</li>
-              <li>Building Rust projects</li>
+    <body>
+        <!-- ── Navigation ─────────────────────────────────────────── -->
+        <nav id="navbar" role="navigation" aria-label="Main navigation">
+            <a class="nav-logo" href="#hero">GR<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a class="nav-cta" href="#contact">Contact</a></li>
             </ul>
-          </div>
-          <div class="sidebar-block reveal reveal-delay-4">
-            <h4>Location</h4>
-            <p>Nashville, TN<br>Open to remote work</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        </nav>
 
-  <!-- ── Skills ─────────────────────────────────────────────── -->
-  <section id="skills" aria-label="Technical skills">
-    <div class="section-inner">
-      <div class="section-label reveal">Tech Stack</div>
-      <h2 class="section-title reveal reveal-delay-1">What I<br><em>build with.</em></h2>
-
-      <div class="skills-grid">
-
-        <div class="skill-card reveal reveal-delay-1">
-          <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
-          <h3>Front-End</h3>
-          <div class="skill-tags">
-            <span class="tag">JavaScript</span>
-            <span class="tag">HTML5</span>
-            <span class="tag">CSS3</span>
-            <span class="tag">Responsive Design</span>
-            <span class="tag">DOM APIs</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal reveal-delay-2">
-          <div class="skill-icon" aria-hidden="true">☕</div>
-          <h3>Back-End &amp; Data</h3>
-          <div class="skill-tags">
-            <span class="tag">Java</span>
-            <span class="tag">MySQL</span>
-            <span class="tag">JavaFX</span>
-            <span class="tag">Swing</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal reveal-delay-3">
-          <div class="skill-icon" aria-hidden="true">⚙</div>
-          <h3>Tools &amp; Practices</h3>
-          <div class="skill-tags">
-            <span class="tag">Git</span>
-            <span class="tag">IntelliJ</span>
-            <span class="tag">DevTools</span>
-            <span class="tag">Agile</span>
-            <span class="tag">Debugging</span>
-            <span class="tag">Code Review</span>
-          </div>
-        </div>
-
-        <div class="skill-card reveal reveal-delay-4">
-          <div class="skill-icon" aria-hidden="true">🦀</div>
-          <h3>Learning</h3>
-          <div class="skill-tags">
-            <span class="tag">Rust</span>
-            <span class="tag">Salesforce</span>
-            <span class="tag">Technical Writing</span>
-            <span class="tag">Systems Design</span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ── Projects ───────────────────────────────────────────── -->
-  <section id="projects" aria-label="Projects">
-    <div class="section-inner">
-      <div class="section-label reveal">Work</div>
-      <h2 class="section-title reveal reveal-delay-1">Things I've<br><em>built.</em></h2>
-
-      <div class="projects-grid">
-
-        <!-- Rock Paper Scissors -->
-        <article class="project-card reveal reveal-delay-1">
-          <div class="project-header">
-            <div class="project-icon" aria-hidden="true">✊</div>
-            <div class="project-links">
-              <a
-                class="project-link"
-                href="https://github.com/gsrockwell910/rock-paper-scissors"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Rock Paper Scissors on GitHub"
-              >↗ GitHub</a>
+        <!-- ── Hero ───────────────────────────────────────────────── -->
+        <section id="hero" aria-label="Introduction">
+            <div class="hero-inner">
+                <div class="hero-tag">Available for opportunities</div>
+                <h1 class="hero-name">Gavin<br /><em>Rockwell</em></h1>
+                <p class="hero-title">Software Engineer</p>
+                <p class="hero-desc">
+                    Building clean, purposeful software with JavaScript, Java,
+                    HTML &amp; CSS. Based in Nashville, TN — open to remote
+                    opportunities.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#projects">View My Work</a>
+                    <a
+                        class="btn btn-outline"
+                        href="https://github.com/gsrockwell910"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >GitHub ↗</a
+                    >
+                    <a class="btn btn-outline" href="#contact">Get in Touch</a>
+                </div>
             </div>
-          </div>
-          <h3>Rock Paper Scissors</h3>
-          <p>
-            A fully playable browser-based Rock Paper Scissors game with a clean UI,
-            score tracking, and game logic built entirely in vanilla JavaScript.
-            Demonstrates event handling, state management, and DOM manipulation.
-          </p>
-          <div class="project-stack">
-            <span class="tag">JavaScript</span>
-            <span class="tag">HTML</span>
-            <span class="tag">CSS</span>
-          </div>
-        </article>
-
-        <!-- Landing Page -->
-        <article class="project-card reveal reveal-delay-2">
-          <div class="project-header">
-            <div class="project-icon" aria-hidden="true">⬛</div>
-            <div class="project-links">
-              <a
-                class="project-link"
-                href="https://github.com/gsrockwell910/landing-page-project"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Landing Page Project on GitHub"
-              >↗ GitHub</a>
+            <div class="hero-scroll" aria-hidden="true">
+                <div class="scroll-line"></div>
+                scroll
             </div>
-          </div>
-          <h3>Landing Page</h3>
-          <p>
-            A responsive landing page built from a design spec, showcasing precise CSS
-            layout skills using Flexbox. Focuses on clean visual hierarchy, consistent
-            spacing, and cross-browser-compatible styling.
-          </p>
-          <div class="project-stack">
-            <span class="tag">HTML</span>
-            <span class="tag">CSS</span>
-            <span class="tag">Flexbox</span>
-          </div>
-        </article>
+        </section>
 
-        <!-- Insurance Policy App -->
-        <article class="project-card reveal reveal-delay-3">
-          <div class="project-header">
-            <div class="project-icon" aria-hidden="true">📋</div>
-            <div class="project-links">
-              <a
-                class="project-link"
-                href="https://github.com/gsrockwell910"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Insurance Policy App on GitHub"
-              >↗ GitHub</a>
+        <!-- ── About ──────────────────────────────────────────────── -->
+        <section id="about" aria-label="About me">
+            <div class="section-inner">
+                <div class="section-label reveal">About</div>
+                <h2 class="section-title reveal reveal-delay-1">
+                    Thoughtful engineer,<br /><em>relentless learner.</em>
+                </h2>
+
+                <div class="about-grid">
+                    <div class="about-text reveal reveal-delay-2">
+                        <p>
+                            I'm a software engineer with a foundation in
+                            <strong>JavaScript, Java, HTML, and CSS</strong>,
+                            built through hands-on freelance work, academic
+                            projects, and a drive to keep expanding my technical
+                            repertoire — most recently into
+                            <strong>Rust</strong>.
+                        </p>
+                        <p>
+                            I thrive in environments where I can own problems
+                            end-to-end: gathering requirements, writing clean
+                            code, debugging with care, and delivering something
+                            that actually works well. I'm equally comfortable
+                            translating complex technical concepts to
+                            non-technical audiences, a skill I've sharpened
+                            daily in client-facing roles.
+                        </p>
+                        <p>
+                            I'm currently seeking a software engineering role
+                            where I can grow fast, contribute meaningfully, and
+                            work on a product that matters.
+                        </p>
+                    </div>
+
+                    <div class="about-sidebar">
+                        <div class="sidebar-block reveal reveal-delay-2">
+                            <h4>Education</h4>
+                            <p>
+                                AAS — Information Technology<br />
+                                Software Development<br />
+                                Central Piedmont CC, 2025
+                            </p>
+                        </div>
+                        <div class="sidebar-block reveal reveal-delay-3">
+                            <h4>Currently</h4>
+                            <ul>
+                                <li>Sales Advisor @ Best Buy</li>
+                                <li>Web Developer @ Train with Tori K.</li>
+                                <li>Building Rust projects</li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-block reveal reveal-delay-4">
+                            <h4>Location</h4>
+                            <p>Nashville, TN<br />Open to remote work</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <h3>Insurance Policy App</h3>
-          <p>
-            A Java application that reads, parses, and displays insurance policy data
-            from files and a MySQL database. Demonstrates object-oriented design,
-            Java I/O, and relational data management — skills directly applicable
-            to CRM development.
-          </p>
-          <div class="project-stack">
-            <span class="tag">Java</span>
-            <span class="tag">MySQL</span>
-            <span class="tag">OOP</span>
-            <span class="tag">File I/O</span>
-          </div>
-        </article>
+        </section>
 
-        <!-- Train with Tori K. -->
-        <article class="project-card reveal reveal-delay-4">
-          <div class="project-header">
-            <div class="project-icon" aria-hidden="true">🌿</div>
-            <div class="project-links">
-              <a
-                class="project-link"
-                href="https://github.com/gsrockwell910"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Train with Tori K. on GitHub"
-              >↗ GitHub</a>
+        <!-- ── Skills ─────────────────────────────────────────────── -->
+        <section id="skills" aria-label="Technical skills">
+            <div class="section-inner">
+                <div class="section-label reveal">Tech Stack</div>
+                <h2 class="section-title reveal reveal-delay-1">
+                    What I<br /><em>build with.</em>
+                </h2>
+
+                <div class="skills-grid">
+                    <div class="skill-card reveal reveal-delay-1">
+                        <div class="skill-icon" aria-hidden="true">
+                            &lt;/&gt;
+                        </div>
+                        <h3>Front-End</h3>
+                        <div class="skill-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">Responsive Design</span>
+                            <span class="tag">DOM APIs</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal reveal-delay-2">
+                        <div class="skill-icon" aria-hidden="true">☕</div>
+                        <h3>Back-End &amp; Data</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Java</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">JavaFX</span>
+                            <span class="tag">Swing</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal reveal-delay-3">
+                        <div class="skill-icon" aria-hidden="true">⚙</div>
+                        <h3>Tools &amp; Practices</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Git</span>
+                            <span class="tag">IntelliJ</span>
+                            <span class="tag">DevTools</span>
+                            <span class="tag">Agile</span>
+                            <span class="tag">Debugging</span>
+                            <span class="tag">Code Review</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-card reveal reveal-delay-4">
+                        <div class="skill-icon" aria-hidden="true">🦀</div>
+                        <h3>Learning</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Rust</span>
+                            <span class="tag">Salesforce</span>
+                            <span class="tag">Technical Writing</span>
+                            <span class="tag">Systems Design</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <h3>Train with Tori K.</h3>
-          <p>
-            Freelance web development engagement for a fitness brand. Extended
-            Squarespace functionality with custom JavaScript and CSS, resolved
-            cross-browser bugs using DevTools, and delivered improvements through
-            direct client collaboration.
-          </p>
-          <div class="project-stack">
-            <span class="tag">JavaScript</span>
-            <span class="tag">CSS</span>
-            <span class="tag">Squarespace</span>
-            <span class="tag">Client Work</span>
-          </div>
-        </article>
+        </section>
 
-      </div>
-    </div>
-  </section>
+        <!-- ── Projects ───────────────────────────────────────────── -->
+        <section id="projects" aria-label="Projects">
+            <div class="section-inner">
+                <div class="section-label reveal">Work</div>
+                <h2 class="section-title reveal reveal-delay-1">
+                    Things I've<br /><em>built.</em>
+                </h2>
 
-  <!-- ── Contact ────────────────────────────────────────────── -->
-  <section id="contact" aria-label="Contact">
-    <div class="section-inner">
-      <div class="section-label reveal">Contact</div>
-      <h2 class="section-title contact-title reveal reveal-delay-1">
-        Let's<br><em>work together.</em>
-      </h2>
+                <div class="projects-grid">
+                    <!-- BevCRM -->
+                    <article class="project-card reveal reveal-delay-1">
+                        <div class="project-header">
+                            <div class="project-icon" aria-hidden="true">
+                                ✊
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    class="project-link"
+                                    href="https://github.com/gsrockwell910/BevCRM"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="BevCRM on GitHub"
+                                    >↗ GitHub</a
+                                >
+                            </div>
+                        </div>
+                        <h3>BevCRM</h3>
+                        <p>
+                            A console-based beverage distribution CRM system
+                            built in Java with JDBC and MySQL, designed around a
+                            clean layered architecture (models, DAOs, and UI).
+                            Supports managing accounts, contacts, and orders
+                            with full CRUD functionality and structured order
+                            status workflows. Focuses on maintainable
+                            object-oriented design and reliable database
+                            interaction.
+                        </p>
+                        <div class="project-stack">
+                            <span class="tag">Java</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Maven</span>
+                        </div>
+                    </article>
 
-      <div class="contact-inner reveal reveal-delay-2">
-        <p>
-          I'm currently open to new opportunities — full-time roles, contract work,
-          or just a conversation about interesting problems. My inbox is always open.
-        </p>
+                    <!-- Landing Page -->
+                    <article class="project-card reveal reveal-delay-2">
+                        <div class="project-header">
+                            <div class="project-icon" aria-hidden="true">
+                                ⬛
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    class="project-link"
+                                    href="https://github.com/gsrockwell910/landing-page-project"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="Landing Page Project on GitHub"
+                                    >↗ GitHub</a
+                                >
+                            </div>
+                        </div>
+                        <h3>Landing Page</h3>
+                        <p>
+                            A responsive landing page built from a design spec,
+                            showcasing precise CSS layout skills using Flexbox.
+                            Focuses on clean visual hierarchy, consistent
+                            spacing, and cross-browser-compatible styling.
+                        </p>
+                        <div class="project-stack">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Flexbox</span>
+                        </div>
+                    </article>
 
-        <div class="contact-links">
-          <div class="contact-item">
-            <span>Email</span>
-            <a href="mailto:gsrockwell910@gmail.com">gsrockwell910@gmail.com</a>
-          </div>
-          <div class="contact-item">
-            <span>Phone</span>
-            <a href="tel:9107422080">(910) 742-2080</a>
-          </div>
-          <div class="contact-item">
-            <span>GitHub</span>
-            <a href="https://github.com/gsrockwell910" target="_blank" rel="noopener noreferrer">gsrockwell910</a>
-          </div>
-          <div class="contact-item">
-            <span>Location</span>
-            <span>Nashville, TN</span>
-          </div>
-        </div>
+                    <!-- Insurance Policy App -->
+                    <article class="project-card reveal reveal-delay-3">
+                        <div class="project-header">
+                            <div class="project-icon" aria-hidden="true">
+                                📋
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    class="project-link"
+                                    href="https://github.com/gsrockwell910"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="Insurance Policy App on GitHub"
+                                    >↗ GitHub</a
+                                >
+                            </div>
+                        </div>
+                        <h3>Insurance Policy App</h3>
+                        <p>
+                            A Java application that reads, parses, and displays
+                            insurance policy data from files and a MySQL
+                            database. Demonstrates object-oriented design, Java
+                            I/O, and relational data management — skills
+                            directly applicable to CRM development.
+                        </p>
+                        <div class="project-stack">
+                            <span class="tag">Java</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">OOP</span>
+                            <span class="tag">File I/O</span>
+                        </div>
+                    </article>
 
-        <a class="btn btn-primary" href="mailto:gsrockwell910@gmail.com">Say Hello →</a>
-      </div>
-    </div>
-  </section>
+                    <!-- Train with Tori K. -->
+                    <article class="project-card reveal reveal-delay-4">
+                        <div class="project-header">
+                            <div class="project-icon" aria-hidden="true">
+                                🌿
+                            </div>
+                            <div class="project-links">
+                                <a
+                                    class="project-link"
+                                    href="https://github.com/gsrockwell910"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    aria-label="Train with Tori K. on GitHub"
+                                    >↗ GitHub</a
+                                >
+                            </div>
+                        </div>
+                        <h3>Train with Tori K.</h3>
+                        <p>
+                            Freelance web development engagement for a fitness
+                            brand. Extended Squarespace functionality with
+                            custom JavaScript and CSS, resolved cross-browser
+                            bugs using DevTools, and delivered improvements
+                            through direct client collaboration.
+                        </p>
+                        <div class="project-stack">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">Squarespace</span>
+                            <span class="tag">Client Work</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-  <!-- ── Footer ─────────────────────────────────────────────── -->
-  <footer>
-    <p>Built with <span>HTML · CSS · JavaScript</span> — Gavin Rockwell</p>
-    <p>© 2026</p>
-  </footer>
+        <!-- ── Contact ────────────────────────────────────────────── -->
+        <section id="contact" aria-label="Contact">
+            <div class="section-inner">
+                <div class="section-label reveal">Contact</div>
+                <h2 class="section-title contact-title reveal reveal-delay-1">
+                    Let's<br /><em>work together.</em>
+                </h2>
 
-  <!-- Script loaded at end of body so DOM is ready, no defer needed -->
-  <script src="main.js"></script>
+                <div class="contact-inner reveal reveal-delay-2">
+                    <p>
+                        I'm currently open to new opportunities — full-time
+                        roles, contract work, or just a conversation about
+                        interesting problems. My inbox is always open.
+                    </p>
 
-</body>
+                    <div class="contact-links">
+                        <div class="contact-item">
+                            <span>Email</span>
+                            <a href="mailto:gsrockwell910@gmail.com"
+                                >gsrockwell910@gmail.com</a
+                            >
+                        </div>
+                        <div class="contact-item">
+                            <span>Phone</span>
+                            <a href="tel:9107422080">(910) 742-2080</a>
+                        </div>
+                        <div class="contact-item">
+                            <span>GitHub</span>
+                            <a
+                                href="https://github.com/gsrockwell910"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >gsrockwell910</a
+                            >
+                        </div>
+                        <div class="contact-item">
+                            <span>Location</span>
+                            <span>Nashville, TN</span>
+                        </div>
+                    </div>
+
+                    <a
+                        class="btn btn-primary"
+                        href="mailto:gsrockwell910@gmail.com"
+                        >Say Hello →</a
+                    >
+                </div>
+            </div>
+        </section>
+
+        <!-- ── Footer ─────────────────────────────────────────────── -->
+        <footer>
+            <p>
+                Built with <span>HTML · CSS · JavaScript</span> — Gavin Rockwell
+            </p>
+            <p>© 2026</p>
+        </footer>
+
+        <!-- Script loaded at end of body so DOM is ready, no defer needed -->
+        <script src="main.js"></script>
+    </body>
 </html>
